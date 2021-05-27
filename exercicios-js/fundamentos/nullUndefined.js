@@ -13,7 +13,7 @@ console.log(produto)
 produto.preco = 3.50
 console.log(produto)
 
-produto.preco = undefined // PÉSSIMA PPRÁTICA!!
+produto.preco = undefined // PÉSSIMA PRÁTICA!!
 console.log(!!produto.preco)
 /*delete produto.preco*/ // Para tirar o atributo de um objeto
 console.log(produto)
