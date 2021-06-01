@@ -8,3 +8,5 @@ console.log(num01)
 
 console.log(++num01 === num02--)
 console.log(num01 === num02)
+
+// ++num01 resolve a operação antes de num01++
