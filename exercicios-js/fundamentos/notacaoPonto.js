@@ -7,7 +7,7 @@ console.log(obj01.nome)
 
 function Obj(nome) {
     this.nome = nome
-    this.exec = function() {
+    this.exec = function () {
         console.log('Exec...')
     }
 }

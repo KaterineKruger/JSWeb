@@ -7,4 +7,4 @@ const resultado = nota => {
 */
 
 console.log(resultado(7.1))
-console.log(resultado(6.7)) 
+console.log(resultado(6.7))

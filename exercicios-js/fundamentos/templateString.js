@@ -5,7 +5,7 @@ const template = `
     Olá
     ${nome}!`
 
-    console.log(concatenacao, template)
+console.log(concatenacao, template)
 
 // Expressōes...
 console.log(`1 + 1 = ${1 + 1}`)

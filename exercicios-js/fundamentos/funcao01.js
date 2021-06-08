@@ -1,12 +1,12 @@
 console.log(typeof Object)
 // Objeto é função
 
-class Produto{}
+class Produto { }
 console.log(typeof Produto)
 // Classes são funçōes
 
 // Função sem retorno
-function imprimirSoma(a, b){
+function imprimirSoma(a, b) {
     console.log(a + b)
 }
 

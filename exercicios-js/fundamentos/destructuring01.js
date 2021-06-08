@@ -9,10 +9,10 @@ const pessoa = {
     }
 }
 
-const { nome, idade} = pessoa // Destructuring
+const { nome, idade } = pessoa // Destructuring
 console.log(nome, idade)
 
-const { nome: n, idade: i} = pessoa // Destructuring
+const { nome: n, idade: i } = pessoa // Destructuring
 console.log(n, i)
 
 const { sobrenome, bemHumorada = true } = pessoa // Destructuring de atributos que não existem

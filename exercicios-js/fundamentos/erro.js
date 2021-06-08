@@ -20,8 +20,8 @@ function imprimirNomeGritado(obj) {
     }
 }
 
-const obj01 = { name: 'Guilherme'}
+const obj01 = { name: 'Guilherme' }
 imprimirNomeGritado(obj01)
 
-const obj02 = { nome: 'Katerine'} // *nome* não existe, sendo assim, resulta em erro.
+const obj02 = { nome: 'Katerine' } // *nome* não existe, sendo assim, resulta em erro.
 imprimirNomeGritado(obj02)

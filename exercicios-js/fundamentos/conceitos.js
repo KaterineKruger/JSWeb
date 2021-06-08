@@ -1,5 +1,5 @@
 // *a* armazena o endereço no qual o objeto se localiza
-const a = {name: 'Teste'}
+const a = { name: 'Teste' }
 console.log(a)
 
 
