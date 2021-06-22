@@ -4,3 +4,31 @@ referente à operação e a realize com os valores numéricos na ordem que foram
 inseridos. Por exemplo: calculadora (2, ‘+’, 3). A função efetuará a soma de 2
 e 3. Dica: Os sinais das operações são: ‘+’. ‘-’, ‘*’ e ‘/’. Crie um caso
 default para operações inválidas. */
+
+// FEITO
+
+const operacao = function (a, operador, b) {
+    switch (operador) {
+        case '+':
+            console.log(a + b)
+            break
+        case '-':
+            console.log(a - b)
+            break
+        case '*':
+            console.log(a * b)
+            break
+        case '/':
+            console.log(a / b)
+            break
+        default:
+            console.log('Operação inválida')
+            break
+    }
+}
+
+operacao(2, '+', 2)
+operacao(2, '-', 2)
+operacao(2, '*', 2)
+operacao(2, '/', 2)
+operacao(2, '%', 2)

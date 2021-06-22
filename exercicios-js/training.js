@@ -1,23 +1,14 @@
-const notas = [7.7, 6.5, 5.2, 8.9, 3.6, 7.1, 9.0]
+dobro = a => 2 * a   // Return implícito
+console.log(dobro(Math.PI))
 
-// Sem callback
+ola = () => 'Olá'
+console.log(ola())
 
-const notasBaixas01 = []
-for (let i in notas) {
-    if (notas[i] < 7) {
-        notasBaixas01.push(notas[i])
-    }
-}
+// Função Arrow não aponta para o global
+let comparaComThisArrow = param => console.log(this === param)
+comparaComThisArrow(global)
+comparaComThisArrow(module.exports)
 
-console.log(notasBaixas01)
-
-// Com callback
-
-const notasBaixas02 = notas.filter(function (nota) {
-    return nota < 7
-})
-
-console.log(notasBaixas02)
-
-const notasBaixas03 = notas.filter(nota => nota < 7)
-console.log(notasBaixas03)
+comparaComThisArrow = comparaComThisArrow.bind(obj)
+comparaComThisArrow(obj)
+comparaComThisArrow(module.exports)

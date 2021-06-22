@@ -5,3 +5,12 @@ o fato que o ponto é utilizado no lugar da vírgula e vice versa. Com isso, vam
 fazer um exercício simples para mostrar dinheiro sempre da forma correta.
 Desenvolva uma função JavaScript para que ela receba um valor como
 0.30000000000000004 e retorne R$0,30 (observe a vírgula e o ponto). */
+
+// FEITO
+
+function formatar(valor) {
+    valorFormatado = `R$ ${valor.toFixed(2).toString().replace('.', ',')}`
+    console.log(valorFormatado)
+}
+
+formatar(0.30000000000000004)

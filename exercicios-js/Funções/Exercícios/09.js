@@ -9,3 +9,34 @@ arredondada para 85, mas a nota 29 não será arredondada por ser abaixo de
 40 e não ser possível arredondamento eficiente, ou seja, que evite a
 reprovação do aluno. No caso de a nota ser 38, o arredondamento é possível
 pois atingirá 40 e o aluno será aprovado. */
+
+/*if nota - nextMultiplo5 < 3, arredondar para nextMultiplo5*/
+
+// ARREDONDAMENTO NAO FUNCIONA
+
+function arredondaNota(nota) {
+    if((5 - (nota % 5)) < 3){                   // OU ->    if (nota % 5 > 2)
+        return nota + (5 - (nota % 5))
+    } else {
+        return nota
+    }
+}
+
+function aprovacao(nota) {
+    if (nota < 0 || nota > 100) {
+        console.log('Nota inválida!')
+    } else {
+        if (nota < 38) {
+            console.log(`Reprovado. Nota: ${nota}`)
+        } else {
+            let notaCorrigida = arredondaNota(nota)
+            console.log(`Aprovado. Nota: ${notaCorrigida}`)
+        }
+    }
+}
+
+aprovacao(-1)
+aprovacao(29)
+aprovacao(40)
+aprovacao(56)
+aprovacao(67)
