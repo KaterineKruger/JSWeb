@@ -1,4 +1,4 @@
-function escolherCarro (modelo) {
+function escolherCarro(modelo) {
     switch (modelo) {
         case 'hatch':
             return 'Compra efetuada com sucesso.'
@@ -16,4 +16,3 @@ console.log(escolherCarro('motocicleta'));
 console.log(escolherCarro('sedan'));
 console.log(escolherCarro('caminhonete'));
 console.log(escolherCarro('jetski'));
-

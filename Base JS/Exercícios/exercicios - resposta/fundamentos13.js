@@ -6,11 +6,11 @@ function classificaDia(numero) {
         case 3:
         case 4:
         case 5:
-        case 6: 
+        case 6:
             return "Dia útil"
         case 7:
             return "Fim de semana"
-        default: 
+        default:
             return "Dia inválido"
     }
 }
@@ -23,4 +23,3 @@ console.log(classificaDia(5));
 console.log(classificaDia(6));
 console.log(classificaDia(7));
 console.log(classificaDia('a'));
-

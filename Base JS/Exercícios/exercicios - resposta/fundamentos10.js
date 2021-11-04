@@ -1,7 +1,7 @@
-function verificaNumero (numero) {
-    if(numero % 3 == 0){
+function verificaNumero(numero) {
+    if (numero % 3 == 0) {
         return true
-    }else{
+    } else {
         return false
     }
 }
