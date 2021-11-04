@@ -1,3 +1,5 @@
+/* Ler um vetor de números inteiros e imprimir quantos são pares e quantos são ímpares. */
+
 function paresImpares(vetorNumeros) {
     let qtdPares = 0
     let qtdImpares = 0
