@@ -2,12 +2,12 @@ console.log(Math.ceil(6.1))
 
 const obj01 = {}
 obj01.nome = 'Bola'
-// obj01{'nome'} = 'Bola02'
+    // obj01{'nome'} = 'Bola02'
 console.log(obj01.nome)
 
 function Obj(nome) {
     this.nome = nome
-    this.exec = function () {
+    this.exec = function() {
         console.log('Exec...')
     }
 }
