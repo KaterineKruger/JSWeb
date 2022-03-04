@@ -6,9 +6,11 @@ const pessoa = {
 
 // Keys
 console.log(Object.keys(pessoa))
-    // Values
+
+// Values
 console.log(Object.values(pessoa))
-    // Entries
+
+// Entries
 console.log(Object.entries(pessoa))
 
 Object.entries(pessoa).forEach(([chave, valor]) => {

@@ -3,8 +3,7 @@ const alunos = [
     { nome: 'Maria', nota: 9.2 }
 ]
 
-// Forma imperativa
-// É focada em COMO a obtenção do resultado é feita.
+// Forma imperativa é focada em COMO a obtenção do resultado é feita.
 
 let total01 = 0
 for (let i = 0; i < alunos.length; i++) {
@@ -13,8 +12,7 @@ for (let i = 0; i < alunos.length; i++) {
 
 console.log(total01 / alunos.length)
 
-// Forma declarativa
-// É focada no resultado, no objetivo final (O QUÊ).
+// Forma declarativa é focada no resultado, no objetivo final (O QUÊ).
 
 const getNota = aluno => aluno.nota
 const soma = (total, atual) => total + atual
